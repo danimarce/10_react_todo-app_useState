@@ -4,6 +4,7 @@ import { ListHeader } from "./ListHeader";
 import { ItemsList } from "./ItemsList";
 import { ListContainer } from "./ListContainer";
 import { HeaderWrapper } from "./HeaderWrapper";
+import { TaskForm } from "./TaskForm";
 import "./App.css";
 
 const itemsList = [
@@ -76,6 +77,7 @@ const App = () => {
         <Header />
         <Subheader subtitle="Todo List Manager" />
       </HeaderWrapper>
+      <TaskForm />
       <ListContainer>
         <ListHeader content="Todo List" />
         <ItemsList itemsList={itemsList} />
