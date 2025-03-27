@@ -12,9 +12,9 @@ export const TaskForm = ({ onCreateTask }) => {
 
     const newTodo = {
       id: Date.now(),
-      title: title,
-      description: description,
-      status: status,
+      title,
+      description,
+      status,
     };
 
     onCreateTask(newTodo);
