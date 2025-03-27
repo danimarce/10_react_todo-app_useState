@@ -1,0 +1,15 @@
+:root {
+  --bg-dark: #242525;
+  --bg-grey: #333;
+  --bg-light: #F1F0F1;
+  --bg-white: #FFFEFE;
+  --bg-grey-button: #808181;
+  --bg-green-button: #018101; 
+  --bg-blue-button: #027AFE; 
+  --border-grey: #424243;
+  --border-light: #DEDFDE;
+  --text-light: #E2E3E2;
+  --text-white: #FFF;
+  --text-dark: #213446;
+  --text-black: #000;
+}

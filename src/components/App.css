@@ -1,0 +1,10 @@
+body {
+  background-color: var(--bg-dark);
+  padding: 0 2rem 2rem 2rem;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: var(--bg-light);
+  }
+}
