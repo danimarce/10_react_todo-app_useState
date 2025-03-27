@@ -5,9 +5,9 @@ export const ItemsList = ({ itemsList }) => {
   return (
     <ul className={styles["unorderedList__wrapper"]}>
       {itemsList.map((item) => {
-        const { uuid } = item;
+        const { id } = item;
 
-        return <ItemCard key={uuid} item={item} />;
+        return <ItemCard key={id} item={item} />;
       })}
     </ul>
   );
