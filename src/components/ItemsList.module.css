@@ -1,4 +1,4 @@
-.unorderedList__wrapper {
+.unordered-list__wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
   list-style: none;
@@ -9,5 +9,11 @@
 }
 
 .third-heading__text {
-  color: var(--text-white);
+  color: var(--text-light);
+}
+
+@media (prefers-color-scheme: light) {
+  .third-heading__text {
+    color: var(--text-dark);
+  }
 }

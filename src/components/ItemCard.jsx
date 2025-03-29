@@ -17,7 +17,7 @@ export const ItemCard = ({ item }) => {
 
   return (
     <>
-      <li className={styles["itemCard__wrapper"]}>
+      <li className={styles["item-card__wrapper"]}>
         <h4 className={titleClass[status]}>{title}</h4>
         <p className={styles["item__description"]}>{description}</p>
         <span className={statusClass[status]}>{status}</span>

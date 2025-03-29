@@ -7,7 +7,7 @@ export const ItemsList = ({ itemsList }) => {
   }
 
   return (
-    <ul className={styles["unorderedList__wrapper"]}>
+    <ul className={styles["unordered-list__wrapper"]}>
       {itemsList.map((item) => {
         const { id } = item;
 
