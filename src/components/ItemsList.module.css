@@ -7,3 +7,7 @@
   place-items: center;
   width: 100%;
 }
+
+.third-heading__text {
+  color: var(--text-white);
+}
