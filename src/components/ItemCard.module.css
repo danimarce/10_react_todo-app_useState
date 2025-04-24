@@ -1,4 +1,4 @@
-.itemCard__wrapper {
+.item-card__wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,7 +55,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  .itemCard__wrapper {
+  .item-card__wrapper {
     background-color: var(--bg-white);
     border-color: var(--border-light);
   }
